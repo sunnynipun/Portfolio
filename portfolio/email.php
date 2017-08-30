@@ -5,15 +5,15 @@ if (isset($_POST["submit"])) {
     $first_name = $_POST['name'];
     $comment=$_POST['message'];
     $subject = "Message from portfolio";
-    $message = $first_name . " wrote the following:" . "\n\n" . $_POST['message'];
+    $message = $first_name . " with emailId:" .$from ." wrote the following:" . "\n\n" . $_POST['message'];
    
 
     $headers = "From:$from\r\n";
    
     
     mail($to,$subject,$message,$headers);
-    
-    echo "Mail Sent. Thank you " . $first_name . ", we will contact you shortly.";
-    // You can also use header('Location: thank_you.php'); to redirect to another page.
+    header('Location: sunnynipun.com');
+    //echo "Mail Sent. Thank you " . $first_name . ", we will contact you shortly.";
+    //You can also use header('Location: thank_you.php'); to redirect to another page.
 }
 ?>

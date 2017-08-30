@@ -195,7 +195,7 @@ align-content: center;
 
 
 .hero-text{
-    margin-bottom: 100px;
+    margin-bottom: 10%px;
     color:#fff;
     
 }
@@ -238,7 +238,7 @@ align-content: center;
     background-size: cover
 }
 .master{
-    margin-top: 100px;
+    margin-top: 5%;
     padding-bottom: 25px;
 }
 .bachelor{
@@ -353,21 +353,24 @@ footer{
       
 }
 .foot-section{
-    height:20%;
     overflow: hidden;
     margin-bottom: 0;
 }
 .social-links{
-    width:20%;
+    /*width:20%;*/
+    padding-top: 15px;
     display: -webkit-inline-box;
     display: -ms-inline-flexbox;
     display: inline-flex;
     list-style:none;
-    margin-left: 40%;
+    float:left;
+    /*margin-left: 40%;*/
     
     
 }
-
+.copyright{
+    float: right;
+}
 
 .social-links i{
     display: block;
@@ -469,11 +472,18 @@ textarea{
     -webkit-transition:background-color 0.3s,color 0.3s;
     transition:background-color 0.3s,color 0.3s;
 }
-.contact-btn:hover{
+.contact-btn:link,
+.contact-btn:focus{
+    background-color:#000; 
+    border-color: #ff7600;
+   
+}
+.contact-btn:hover,
+.contact-btn:active{
     background-color:#ff7600;
     color:#000;
     border-color: #ff7600;
-    
+   
 }
 
 

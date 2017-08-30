@@ -47,7 +47,29 @@ h6{font-size:0.8em;}
 } 
 .main-nav li{
     margin-left:35px;
-}    
+}
+    .social-links i{
+    
+    font-size: 130%;
+   
+}
+.contact-fixed:link,
+.contact-fixed:visited
+{
+    
+    width:150px;
+    border-radius: 50px;
+    border: 1px #ff7600 solid;
+    font-size: 120%;
+   
+}
+.contact-fixed:hover,
+.contact-fixed:active{
+    color:#ff7600;
+    background-color: #000;
+        font-size: 120%;
+
+}
 }
 @media (max-width: 767px)and (min-width:576px) { 
  h1{font-size:2.0em;}
@@ -84,30 +106,31 @@ font-size: 1em;
  border-radius: 100px;
  
     }
+.social-links i{    
+    font-size: 110%;
+   
 }
-@media screen and (max-width: 700px) {
-  .topnav a:not(:first-child) {display: none;}
-  .topnav a.icon {
-    float: right;
-    display: block;
-  }
+        .contact-fixed:link,
+.contact-fixed:visited
+{
     
+    width:130px;
+    border-radius: 50px;
+    border: 1px #ff7600 solid;
+    font-size: 100%;
+   
 }
+.contact-fixed:hover,
+.contact-fixed:active{
+    color:#ff7600;
+    background-color: #000;
+        font-size: 100%;
+
+}
+}
+
 @media screen and (max-width: 700px) {
-  .topnav .responsive {
-    position: relative;
-      border: 2px red solid;
-    }
-  .topnav .responsive .icon {
-    position: absolute;
-    right: 0;
-    top: 0;
-  }
-  .topnav .responsive a {
-    float: none;
-    display: block;
-    text-align: left;
-  } 
+
    .accordionTitle
     {
  padding:20px;     
@@ -147,5 +170,27 @@ h6{font-size:0.6em;}
 .main-nav li{
     margin-left:25px;
     margin-left:25px;
-}    
+} 
+       .social-links i{
+    
+    font-size: 90%;
+   
+}
+    .contact-fixed:link,
+.contact-fixed:visited
+{
+    
+    width:100px;
+    border-radius: 50px;
+    border: 1px #ff7600 solid;
+    font-size: 90%;
+   
+}
+.contact-fixed:hover,
+.contact-fixed:active{
+    color:#ff7600;
+    background-color: #000;
+        font-size: 90%;
+
+}
 }
